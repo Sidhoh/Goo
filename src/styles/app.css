@@ -1,0 +1,183 @@
+body {
+  background-color: #060606;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#editor {
+  border-radius: 10px;
+  background-color: #161616;
+  border: none;
+  outline: none;
+  width: 47.7%;
+  position: absolute;
+  height: 94.5%;
+  color: white;
+  font-family: monospace;
+  resize: none;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.result {
+  border-radius: 10px;
+  right: 0px;
+  background-color: #161616;
+  border: none;
+  outline: none;
+  width: 47.7%;
+  position: absolute;
+  padding-bottom: 0px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 95%;
+  color: white;
+  font-family: monospace;
+  resize: none;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.nav {
+  font-family: monospace;
+  position: relative;
+  background-color: #161616;
+  color: white;
+  height: 235px;
+  width: 350px;
+  padding-left: 20px;
+  border-radius: 10px;
+  top: 150px;
+  margin: auto;
+  outline-color: hsl(0, 0%, 22%);
+  outline-style: solid;
+  outline-width: thin;
+}
+
+.footer {
+  padding-top: 10px;
+  padding-right: 20px;
+  text-align: center;
+  font-size: 10px;
+}
+
+.option {
+  color: hsl(0, 0%, 70%);
+  padding-top: 20px;
+  display: flex;
+  text-decoration: none;
+  outline: none;
+  cursor: pointer;
+}
+
+input {
+  outline: none;
+  border: none;
+  background-color: #161616;
+  color: hsl(0, 0%, 70%);
+  font-size: large;
+  padding-right: 97px;
+  margin-top: 40px;
+}
+
+.option_4 {
+  font-family: monospace;
+  position: relative;
+  background-color: #161616;
+  color: white;
+  height: 100px;
+  width: 350px;
+  padding-left: 20px;
+  border-radius: 10px;
+  top: 200px;
+  margin: auto;
+  outline-color: hsl(0, 0%, 22%);
+  outline-style: solid;
+  outline-width: thin;
+}
+
+.option_2 {
+  font-family: monospace;
+  position: relative;
+  background-color: #161616;
+  color: white;
+  height: 75px;
+  width: 350px;
+  padding-left: 20px;
+  border-radius: 10px;
+  top: 200px;
+  margin: auto;
+  outline-color: hsl(0, 0%, 22%);
+  outline-style: solid;
+  outline-width: thin;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+li {
+  list-style-type: none;
+}
+
+.vselect {
+  width: 330px;
+}
+
+.vselect .vs__open-indicator {
+  cursor: pointer;
+}
+
+.vselect .vs__selected {
+  color: white;
+}
+
+.vselect .vs__dropdown-menu {
+  background-color: #161616;
+  cursor: pointer;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* CSS */
+.button-8 {
+  background-color: #e1ecf4;
+  border-radius: 3px;
+  border: 1px solid #7aa7c7;
+  box-shadow: rgba(255, 255, 255, 0.7) 0 1px 0 0 inset;
+  box-sizing: border-box;
+  color: #39739d;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system, system-ui, "Segoe UI", "Liberation Sans",
+    sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.15385;
+  outline: none;
+  padding: 8px 0.8em;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+
+.button-8:hover,
+.button-8:focus {
+  background-color: #b3d3ea;
+  color: #2c5777;
+}
+
+.button-8:focus {
+  box-shadow: 0 0 0 4px rgba(0, 149, 255, 0.15);
+}
+
+.button-8:active {
+  background-color: #a0c7e4;
+  box-shadow: none;
+  color: #2c5777;
+}
